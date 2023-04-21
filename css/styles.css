@@ -17,6 +17,8 @@ html{
     align-items: center;
     height: 100vh;
     padding: 15px;
+    box-shadow: 2px 2px 4px black;
+    
 }
 
 .calculator{
@@ -25,6 +27,7 @@ html{
     width: 500px;
     font-size: 2rem;
     border: 1px solid grey;
+    box-shadow: 4px 4px 8px black;
 }
 
 .calculator-display{
@@ -71,4 +74,13 @@ html{
 
 .keypad-button.dark{
     background-color: lightgray ;
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    font-family: 'Kanit', sans-serif;
+    font-size: 15px;
+    font-weight: bolder;
+    flex-direction: column;
 }
